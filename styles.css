@@ -36,6 +36,10 @@ body{
     cursor: pointer;
 }
 
+.logo{
+    font-size: 15px;
+}
+
 .logo-nav{
     display: flex;
     align-items: center;
@@ -49,6 +53,20 @@ body{
     justify-content: space-between;
     width: 250px;
     font-size: small;
+}
+
+.middle-arrows{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.arrow-down{
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+    object-position: bottom;
+    margin-left: 2px;
 }
 
 .right-nav{
@@ -143,7 +161,8 @@ body{
 .man{
     width: 50%;
     height: 250px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top;
 }
 
 .women-button{
@@ -151,9 +170,9 @@ body{
     border-radius: 20px;
 
     padding-right: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
     background-color: green;
     color: white;
 }
@@ -162,9 +181,9 @@ body{
     border: none;
     border-radius: 20px;
     padding-right: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
     background-color: red;
     color: white;
 }
@@ -175,6 +194,7 @@ body{
 }
 
 .look{
+    font-size: smaller;
     margin-top: 0;
 }
 
@@ -188,7 +208,8 @@ body{
     padding-top: 10px;
     background-color: white;
     color: black;
-    font-size: smaller;
+    font-size: 10px;
     box-shadow: rgba(0, 0, 0, 0.445);
     font-weight: bold;
 }
+
